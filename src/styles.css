@@ -1,0 +1,60 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sunny-picture {
+  max-width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.current-temperature {
+  font-weight: bold;
+  font-size: 44px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.current-weather {
+  font-size: 24px;
+  text-align: center;
+}
+
+.forecasted-weather-img {
+  max-width: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+.day-of-the-week {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.forecasted-temperature {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.temp-unit {
+  font-size: 20px;
+  padding: 10px;
+}
+
+#temp-unit-cel,
+#temp-unit-fah {
+  text-decoration: none;
+}
+
+#temp-unit-cel {
+  color: black;
+}
