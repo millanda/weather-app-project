@@ -13,6 +13,11 @@ h2 {
   display: block;
 }
 
+.credits {
+  text-align: center;
+  margin-top: 10px;
+}
+
 .current-temperature {
   font-weight: bold;
   font-size: 44px;
